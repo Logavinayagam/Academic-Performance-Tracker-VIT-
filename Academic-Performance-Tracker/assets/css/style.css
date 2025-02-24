@@ -1,0 +1,700 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Stylish Transparent Gradient Header */
+.header {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(255, 0, 150, 0.7));
+    color: white;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Highlight 'Performance' in another color */
+.logo span {
+    color: yellow;
+}
+
+/* Transparent Gradient Footer */
+.footer {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background: linear-gradient(to right, rgba(255, 0, 150, 0.7), rgba(0, 0, 0, 0.7));
+    color: white;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+/* Gradient Background */
+body {
+    background: linear-gradient(to right, #000000, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centered 3D Panel */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.intro-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 500px;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+/* Button Styles */
+.button-group {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+    color: white;
+    border: none;
+}
+
+.login-btn {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.register-btn {
+    background: linear-gradient(to right, #43cea2, #185a9d);
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* Button Icons */
+.btn i {
+    margin-right: 10px;
+}
+
+/* Form Box */
+.form-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 400px;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+/* Input Field Styling */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.input-group i {
+    margin-right: 10px;
+    color: white;
+}
+
+.input-group input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+
+/* Placeholder Color */
+::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Register Button */
+.register-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Login & Register Form Box */
+.form-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 400px;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+/* Input Field Styling */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.input-group i {
+    margin-right: 10px;
+    color: white;
+}
+
+.input-group input {
+    width: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
+
+/* Placeholder Color */
+::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Login Button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+/* Dashboard Title */
+.dashboard-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Container holds dashboard options at the top */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Ensures options stay at the top */
+    height: 80vh;
+}
+
+/* Dashboard Options Grid */
+.dashboard-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Option Panels */
+.option {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.option img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.option:hover {
+    transform: scale(1.1);
+}
+
+/* Profile & Logout Icons (Fixed at Bottom) */
+.bottom-icons {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.icon-link img {
+    width: 60px;
+    height: 60px;
+    margin: 0 20px;
+    transition: 0.3s;
+}
+
+.icon-link img:hover {
+    transform: scale(1.2);
+}
+
+
+/* Profile Box */
+.profile-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 400px;
+    color: white;
+    backdrop-filter: blur(10px);
+    margin-top: 50px;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Back to Dashboard Button */
+.back-btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    border: none;
+    margin-top: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+    transform: scale(1.1);
+}
+
+
+/* Grade Calculator Box */
+.grade-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 400px;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+/* Input Fields */
+.grade-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Calculate Button */
+.calculate-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.calculate-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Result Popup */
+.result-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+
+/* Attendance Tracker Box */
+.attendance-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 400px;
+    color: white;
+    backdrop-filter: blur(10px);
+}
+
+/* Input Fields */
+.attendance-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Calculate Button */
+.calculate-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.calculate-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Result Popup */
+.result-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+
+/* Result Box */
+.result-box {
+    max-width: 400px;
+}
+
+/* Close Button */
+.close-btn {
+    font-size: 24px;
+    cursor: pointer;
+    float: right;
+}
+
+/* Back to Dashboard Button */
+.back-btn {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    border: none;
+    width: 200px;
+    transition: 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* Goal Setting Box */
+.goal-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 500px;
+    color: white;
+    backdrop-filter: blur(10px);
+    margin: 80px auto;
+}
+
+/* Input Groups */
+.goal-box .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.goal-box label {
+    flex: 1;
+    font-size: 16px;
+    text-align: left;
+    color: white;
+}
+
+.goal-box input, .goal-box select {
+    flex: 2;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+/* Ensure Placeholder Text is Visible */
+.goal-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+
+/* Calculate Button */
+.calculate-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.calculate-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Result Popup */
+.result-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Save Button */
+.save-btn, .confirm-save-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.save-btn:hover, .confirm-save-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Performance Chart */
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Back to Dashboard Button */
+.back-btn {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    border: none;
+    width: 200px;
+    transition: 0.3s ease-in-out;
+}
+
+.back-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Study Resources Box */
+.resource-box, .feedback-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 500px;
+    color: white;
+    backdrop-filter: blur(10px);
+    margin: 40px auto;
+}
+
+/* Study Resources Links */
+.resource-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-box ul li {
+    padding: 10px;
+}
+
+.resource-box ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff7e5f;
+    transition: 0.3s;
+}
+
+.resource-box ul li a:hover {
+    color: #feb47b;
+    text-decoration: underline;
+}
+
+/* Library Button */
+.library-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    border: none;
+    width: 200px;
+    transition: 0.3s ease-in-out;
+}
+
+.library-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Feedback Box */
+.feedback-box textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    resize: none;
+}
+
+.feedback-box textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Submit Feedback Button */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    color: rgb(148, 152, 235);
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Red Gradient Button */
+.red-gradient-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: linear-gradient(to right, #ff416c, #ff4b2b); /* Red Gradient */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.red-gradient-btn:hover {
+    transform: scale(1.1);
+}
