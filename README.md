@@ -25,7 +25,7 @@ The **Academic Performance Tracker (VIT)** is a web-based platform designed to h
 ## ⚙️ Installation Steps
 1️⃣ **Clone the Repository**
 ```bash
- git clone https://github.com/your-repo/Academic-Performance-Tracker.git
+ git clone https://github.com/Logavinayagam/Academic-Performance-Tracker-VIT-.git
 ```
 2️⃣ **Start XAMPP** and ensure MySQL is running on port `4306`  
 3️⃣ **Import Database:** Import `academic_tracker.sql` in phpMyAdmin  
@@ -43,7 +43,9 @@ The **Academic Performance Tracker (VIT)** is a web-based platform designed to h
 
 
 ## 👥 Contributors
-- **Logavinayagam , Thaarani , Varshika** *(Developer)*
+- **Logavinayagam** 
+- **Thaarani** 
+- **Varshika** 
 
 ## 🔮 Future Enhancements
 - ✅ **Admin Panel to View Feedback & Manage Users**
