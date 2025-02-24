@@ -41,15 +41,9 @@ The **Academic Performance Tracker (VIT)** is a web-based platform designed to h
 - **goals** (Stores academic goals & target CGPA)
 - **feedback** (Records user feedback)
 
-## 📸 UI Screenshots *(Add your screenshots here!)*
-- **Dashboard**
-- **GPA Calculator**
-- **CGPA Calculator**
-- **Goal Setting**
-- **Study Resources & Feedback**
 
 ## 👥 Contributors
-- **Logavinayagam** *(Developer & Project Lead)*
+- **Logavinayagam , Thaarani , Varshika** *(Developer)*
 
 ## 🔮 Future Enhancements
 - ✅ **Admin Panel to View Feedback & Manage Users**
